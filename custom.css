@@ -9,7 +9,7 @@
 
 
 h4 {
-    font-family:lora;
+    font-family:'lora';
     font-size:1.25em;
 }
 
@@ -70,7 +70,7 @@ h2 {
     padding-left:5%;
 }
 p{
-    font-family: montserrat;
+    font-family: 'Montserrat';
 }
 body{
     font-family: 'Lora';font-size: 20px;
@@ -106,7 +106,7 @@ hr {
 
 .navbar a {
     color: white;
-    font-family:montserrat;
+    font-family:'Montserrat';
         font-weight:600;
 
 }
