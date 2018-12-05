@@ -21,6 +21,10 @@ h2 {
     font-size:1.50em;
 }
 
+.mainheader {
+    align-self:center;
+}
+
 .firstheader {
     padding-top:0.5%;
     padding-left:1%;
