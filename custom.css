@@ -6,7 +6,9 @@
     height:62vh;
     width:100vw; 
   }
-
+div.row.center{
+    width:100%;
+}
 
 h4 {
     font-family:'lora';
@@ -141,6 +143,8 @@ a:hover {
 
 
 .footer {
+    display: flex;
+    justify-content: center;
    width: 100vw;
    background-color: #767676;
    color: white;
@@ -150,7 +154,7 @@ a:hover {
 }
 
 .rights {
-    padding-top:3%;
+/*    padding-top:3%;*/
 }
 .center {
     text-align:center;

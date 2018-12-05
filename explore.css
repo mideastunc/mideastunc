@@ -1,5 +1,5 @@
 body {
-  margin: 20px;
+/*  margin: 20px;*/
   text-align: center;
   font-family: 'lora';
 }
@@ -28,7 +28,11 @@ body {
     color: #13294B;
 }
 
-
+div.box.sidebar{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+}
 
 
 .sidebar2 {
@@ -44,7 +48,7 @@ body {
 
 .content {
 		grid-area: content;
-    width: 60%;
+/*    width: 60%;*/
     color: #4B9CD3;
         
         
@@ -82,38 +86,38 @@ body {
 	}      
         
         
-.menu li {
-  display: inline-block;  
-  padding: 10px;   
-  border-radius: 5px;   
-  margin: 20px;
-  
-}
+    .menu li {
+      display: inline-block;  
+      padding: 10px;   
+      border-radius: 5px;   
+      margin: 20px;
 
-.menu li a {
-   text-decoration: none;
-      color: white;
-}
+    }
 
-.menu li:hover {
-  background: #4B9CD3;
-    color: #13294B;
-}
+    .menu li a {
+       text-decoration: none;
+          color: white;
+    }
 
-.menu li ul {
-  display: none;
-  padding: 0;
-  position: absolute;
- }
+    .menu li:hover {
+      background: #4B9CD3;
+        color: #13294B;
+    }
+
+    .menu li ul {
+      display: none;
+      padding: 0;
+      position: absolute;
+     }
+
+
+    .sidebar
+     {
+      background-color: #4B9CD3;
+    }
 
     
-.sidebar
- {
-  background-color: #4B9CD3;
 }
-
-    
-	}
 
 
 
@@ -121,7 +125,7 @@ body {
 		
     .wrapper {
 
-        grid-template-columns: 20% 50% 30%;
+        grid-template-columns: 20% 40% 40%;
           grid-gap: 7px;
           grid-template-areas:
           "header  header  header"
@@ -151,13 +155,15 @@ a:link {
 */
 
 .footer {
-   width: 100%;
-   background-color: #767676;
-   color: white;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #767676;
+    color: white;
     padding-top:1%;
     height:8vh;
 }
-   .center {
+.center {
     text-align:center;
     display: flex;
     align-items: center;
