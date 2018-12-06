@@ -93,8 +93,7 @@ grid-area: content;
       grid-template-rows:auto;
 		grid-template-areas:
         "sidebar"
-        "header"
-        "content "
+        "content"
 		"sidebar2"
 		"footer";
 	}      
@@ -144,7 +143,7 @@ grid-area: content;
 min-width:100vw;
 min-height: 100vh;
     grid-template-columns: 20% 40% 40%;
-        grid-template-rows:90% 10%;
+        grid-template-rows:92% 8%;
          grid-gap: 6px;
           grid-template-areas:
           "sidebar content sidebar2"
@@ -169,8 +168,7 @@ max-width:100%;
 }
 .content {
     grid-area:content;
-    grid-template-rows:60% 40%;
-    grid-row:auto;
+    
 
 }
 
