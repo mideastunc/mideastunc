@@ -4,11 +4,11 @@ body {
   font-family: 'Lora';
     width:100vw;
     height:100vh;
+    margin:0;
 }
 
 .wrapper {
      background-color: white;
-     color: black;
      display: grid;
      grid-template-areas:
      "header"
@@ -52,6 +52,10 @@ body {
     color: #13294B;
 }
 
+.menu li a:visited {
+    color: #13294B;
+}
+
 div.box.sidebar{
    
 }
@@ -59,6 +63,7 @@ div.box.sidebar{
 
 .sidebar2 {
 grid-area: sidebar2;
+    
  	}
 
 
@@ -157,13 +162,13 @@ grid-area: content;
 min-width:100vw;
 min-height: 100vh;
     grid-template-columns: 20% 40% 40%;
-    grid-template-rows:92% 8%;
+    grid-template-rows:95% 5%;
     grid-gap: 6px;
     grid-template-areas:
     "sidebar content sidebar2"
     "footer  footer  footer";
         		}
-	}
+	
 
 
 .sidebar {
@@ -194,36 +199,36 @@ max-width:100%;
 display:flex;
 flex-direction:column;
 align-items:center;
+ 
 }
 
 
 a:link {
-    color: white;
     text-decoration: none;
+    color:white;
 }
 
-
-/*
-.menu li a:hover {
-  background: #4B9CD3;
-    color: #13294B;
-}
-*/
 
 .footer {
-   
     width: 100%;
     background-color: #767676;
     color: white;
     padding-top:1%;
+    padding-bottom:0%;
 }
 .center {
     text-align:center;
      display: flex;
-    justify-content: space-around;;
+    justify-content: space-around;
+   
 }
 
+.menu li a:visited {
+    color: #13294B;
+}
 
+    
+    
 .fab {
     margin-left:30px;
 }
@@ -233,3 +238,4 @@ a:hover {
 }
 
 
+    }
