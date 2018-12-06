@@ -27,6 +27,9 @@ h2 {
     align-self:center;
 }
 
+p {
+    font-size:14px;
+}
 .firstheader {
     padding-top:0.5%;
     padding-left:1%;
@@ -64,7 +67,7 @@ h2 {
 }
 
 .feature {
-    width:40%;
+    width:100%;
 }
 
 .featureheading {
@@ -77,6 +80,8 @@ h2 {
 .media-body {
     padding-left:5%;
 }
+
+
 p{
     font-family: 'Montserrat';
 }
@@ -93,16 +98,7 @@ body{
     padding:0;
 }
 
-/*
 
-hr {
-    width:40%;
-    height:0.1%;
-    background-color: white;
-    position:absolute;
-    margin:0.5%;
-    
-}*/
 
 .navbar {
     width:100%;
@@ -127,13 +123,27 @@ hr {
     
 }
 
+.middle a:link {
+    color:#13294B;
+}
+
+.middle a:hover {
+    color:#4B9CD3;
+}
 .navbar-nav>li {
     display:inline-block;
     padding-right:10px
 }
-a:link {
+
+
+.center a:link {
     color: white;
     text-decoration: none;
+}
+
+.center a:hover {
+    color:#4B9CD3;
+}
 }
 a:hover { 
    color: #13294B;
