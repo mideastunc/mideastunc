@@ -129,6 +129,7 @@ body{
 
 .middle a:hover {
     color:#4B9CD3;
+    text-decoration:none;
 }
 .navbar-nav>li {
     display:inline-block;
@@ -143,6 +144,7 @@ body{
 
 .center a:hover {
     color:#4B9CD3;
+    text-decoration:none;
 }
 }
 a:hover { 
