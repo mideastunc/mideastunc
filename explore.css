@@ -48,7 +48,7 @@ body {
     font-weight:600;
 }
 
-.menu li:hover {
+.menu li a:hover {
     color: #13294B;
 }
 
