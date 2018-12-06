@@ -18,6 +18,8 @@ body {
      "footer"
   }
 
+
+
 .sidebar {
   grid-area: sidebar;
     background-color:#4B9CD3;
@@ -44,7 +46,7 @@ body {
     display:inline-block;
    text-decoration: none;
    color: white;
-    font-family:"Montserrat";
+    font-family:'Montserrat';
     font-size:1.35em;
     font-weight:600;
 }
@@ -61,18 +63,33 @@ body {
 .menu li a:active {
     color:white;
 }
-div.box.sidebar{
-   
+
+
+a:link {
+    text-decoration: none;
+    color:white;
 }
 
+a:hover {
+    color: #4B9CD3;
+}
 
 .sidebar2 {
 grid-area: sidebar2;
-    
+   color: #4B9CD3;
+   
  	}
 
+.sidebar2 a:link {
+    text-decoration:none;
+    color:#13294B;
+}
 
-    img {
+.sidebar2 a:hover {
+    text-decoration:none;
+    color:#4B9CD3;
+}
+img {
          max-width: 100%;
     }
 
@@ -80,16 +97,19 @@ grid-area: sidebar2;
 .content {
 grid-area: content;
     color: #4B9CD3;
-        
-        
+	}
+
+.content a:link{
+text-decoration:none;
 	}
 
 
 .footer {
 		grid-area: footer;
         background-color:grey;
+        color:white;
 	}
-
+.center
 
 .logoheader {
     padding-top:3%;
@@ -139,6 +159,7 @@ grid-area: content;
       padding: 0;
       position: absolute;
      }
+}
 
 /*
 
@@ -178,11 +199,6 @@ min-height: 100vh;
         		}
 	
 
-
-.sidebar {
-  background-color: #4B9CD3;
-}
-
     
 img.box {
     max-width:120px;
@@ -190,16 +206,22 @@ img.box {
 }
 
 img.subcontent {
-   
-    
+
 }
 .content {
     grid-area:content;
-    
-    
 
 }
 
+.sidebar2 a:link {
+color:#13294B; 
+    }
+    
+.sidebar2 a:hover {
+color:#4B9CD3;
+    }
+    
+    
 .sidebar2 {
     grid-area:sidebar2;
     
@@ -217,7 +239,10 @@ a:link {
     color:white;
 }
 
-
+a:hover {
+    color: #13294B;
+}
+    
 .footer {
     width: 100%;
     background-color: #767676;
@@ -242,9 +267,7 @@ a:link {
     margin-left:30px;
 }
 
-a:hover {
-    color: #13294B;
-}
+
 
 
     }
