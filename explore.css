@@ -101,12 +101,12 @@ grid-area: content;
 @media only screen and (min-width: 500px)  {
 
   .wrapper {
-        min-width:100vw;
+    min-width:100vw;
       grid-template-columns:100vw;
       grid-template-rows:auto;
                              grid-template-areas:
-        "sidebar"
-        "content"
+                                "sidebar"
+                                "content"
                              "sidebar2"
                              "footer";
               }      
@@ -149,7 +149,10 @@ grid-area: content;
     .content, a:visited {
        color: #4B9CD3;
     }
-    
+ 
+    .footer {
+        height:10px;
+    }
 }
 
 
@@ -160,7 +163,7 @@ grid-area: content;
 min-width:100vw;
 min-height: 100vh;
     grid-template-columns: 20% 40% 40%;
-        grid-template-rows:92% 8%;
+        grid-template-rows:95% 5%;
          grid-gap: 6px;
           grid-template-areas:
           "sidebar content sidebar2"
@@ -221,11 +224,15 @@ a:link {
 
 
 .footer {
-   
+   height:100%;
     width: 100%;
     background-color: #767676;
     color: white;
     padding-top:1%;
+}
+
+.footer a:hover {
+    color:#4B9CD3
 }
 .center {
     text-align:center;
