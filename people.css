@@ -1,0 +1,48 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+nav {
+    background-color: #4B9CD3;
+}
+nav a {
+    color: #FFFFFF;
+}
+nav a:hover {
+    color: #13294B;
+    text-decoration: underline;
+    }
+.col-6 {
+    padding-top: 5%;
+}
+h1 {
+    color: #4B9CD3;
+    font-family:'lora';
+    font-size: 5em;
+    text-align: center;
+    margin: 0 auto;
+}
+h2 {
+    font-family:'lora';
+}
+p {
+    font-family: 'Montserrat';
+}
+.img-fluid {
+    max-height: 300px;
+    max-width: 200px;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+   width: 100vw;
+   background-color: #767676;
+   color: white;
+    padding-top:1%;
+}
+.footer a {
+    color: #FFFFFF;
+}
+.footer p {
+    color: #FFFFFF;
+}
