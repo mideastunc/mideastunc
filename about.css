@@ -19,6 +19,7 @@
     align-items:baseline; 
 }
 
+
 nav a {
     color: #FFFFFF;
     text-align:center;
@@ -72,6 +73,13 @@ padding-top:1%;
 .center {
     justify-content:center;
     width:100%;
+    color:white;
 }
-.footer a {
-    color: #FFFFFF;
+
+.footer a{
+    color:white;
+}
+    .footer a:hover{
+        text-decoration:none;
+        color: #4B9CD3;
+    }
