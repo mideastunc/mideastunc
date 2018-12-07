@@ -90,8 +90,7 @@ grid-area: content;
 
 
 .footer {
-grid-area: footer;
-
+                             grid-area: footer;
               }
 
 
@@ -99,11 +98,9 @@ grid-area: footer;
     padding-top:3%;
 }
 
-
 @media only screen and (min-width: 500px)  {
 
   .wrapper {
-      background-color:white;
     min-width:100vw;
       grid-template-columns:100vw;
       grid-template-rows:auto;
@@ -172,7 +169,7 @@ min-height: 100vh;
           "sidebar content sidebar2"
                                "footer  footer  footer";
                              }
-              
+              }
 
 
 .sidebar {
